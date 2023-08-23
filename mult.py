@@ -11,6 +11,6 @@ print(chalk.black('-' * 73))
 def line_output(number):
     x = [number * num for num in range(1, 11)]
     print(chalk.bgBlack(f' {str(number):2}  | '), chalk.white('     '.join(f'{str(num):2}' for num in x)))
-# use for loop and repetition finction result multiplication 
+# use for loop and repetition finction result for  multiplication 
 for i in range(1, 11):
     line_output(i)
